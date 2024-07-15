@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (min-width:1200px) {
+    .container{
+        max-width: 768px;
+        padding: 0px;
+    }
+    
+}
+
+header {
+    background: #fff;
+}
+
+header .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header h3 a{
+    color: #e47676;
+}
+
+main.container{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background: #fff;
+}
+
+footer.container{
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+    color: #e47676;
+}
+
+footer.container span{
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+    color: #0b358a;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-right .btn {
+    margin-left: 10px;
+}
+
+.top-nav .nav-item{
+    margin-left: 10px;
+}

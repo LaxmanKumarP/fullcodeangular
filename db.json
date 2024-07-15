@@ -1,0 +1,27 @@
+{"todos": [
+  {
+      "id":1,
+      "title":"pay power bill",
+      "isCompleted":true,
+      "targetDate":"2023-02-10",
+      "tags":"Urgent",
+      "category":"Home"
+  },
+  {
+      "id":2,
+      "title":"pay phone bill",
+      "isCompleted":false,
+      "targetDate":"2023-02-12",
+      "tags":"Urgent",
+      "category":"Office"
+  },
+  {
+      "id":3,
+      "title":"pay for fruits",
+      "isCompleted":true,
+      "targetDate":"2023-02-10",
+      "tags":"Urgent",
+      "category":"Home"
+  }
+
+]}
